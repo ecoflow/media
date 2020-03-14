@@ -1,0 +1,27 @@
+{
+  "name": "ecoflow/media",
+  "version": "0.0.1",
+  "description": "Media manager",
+  "type": "package",
+  "authors": [
+    {
+      "name": "jrb",
+      "email": "jrb.youssef@gmail.com"
+    }
+  ],
+  "require": {
+    "intervention/image": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ecoflow\\Media\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ecoflow\\Media\\MediaServiceProvider"
+      ]
+    }
+  }
+}
