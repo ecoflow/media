@@ -1,6 +1,6 @@
 <?php
 
-namespace Ecoflow\Media\Models\Image;
+namespace Ecoflow\Media\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
